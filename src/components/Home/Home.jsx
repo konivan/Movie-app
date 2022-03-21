@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { addMovies } from '../../features/movies/movieSlice';
 
 const Home = () => {
-  const movieText = "Harry";
+  const movieText = "Pokemon";
   const dispatch = useDispatch();
   useEffect(() => {
     const fetchMovies = async () => {
